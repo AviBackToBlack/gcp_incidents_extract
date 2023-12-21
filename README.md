@@ -33,12 +33,8 @@ Before running this script, you must have:
    - Replace 'your_project_id' with your actual GCP project ID.
    - Replace 'your_authorization' with **Authorization** header.
    - Replace 'your_key' with **key** HTTP GET parameter.
-   - Replace 'your_apisid' with **APISID** cookie.
-   - Replace 'your_hsid' with **HSID** cookie.
-   - Replace 'your_sapisid' with **SAPISID** cookie.
-   - Replace 'your_sid' with **SID** cookie.
-   - Replace 'your_ssid' with **SSID** cookie.
-   - Edit **FILTER** variable by replacing two **YYYY-MM-DD** placeholders to set desired time range.
+   - Replace 'your_cookie' with **Cookie** header.
+   - Edit **DATE_FROM** and **DATE_TO** variablse by replacing two **YYYY-MM-DD** placeholders to set desired time range.
 
 ## Usage
 
