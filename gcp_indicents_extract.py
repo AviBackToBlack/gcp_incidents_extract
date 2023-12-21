@@ -45,7 +45,7 @@ def get_incidents(next_page_token=None):
         'Origin': 'https://console.cloud.google.com',
     }
 
-    url = f"{BASE_URL}?filter=%{FILTER}&pageSize={PAGE_SIZE}&key={KEY}"
+    url = f"{BASE_URL}?filter={FILTER}&pageSize={PAGE_SIZE}&key={KEY}"
     if next_page_token:
         url += f"&pageToken={next_page_token}"
     response = requests.get(url, headers=headers, cookies=cookies)
