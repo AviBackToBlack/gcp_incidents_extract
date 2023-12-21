@@ -16,8 +16,8 @@ Before running this script, you must have:
 ## Setup
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/AviBackToBlack/gcp_indicents_extract.git
-   cd gcp_indicents_extract
+   git clone https://github.com/AviBackToBlack/gcp_incidents_extract.git
+   cd gcp_incidents_extract
    ```
 
 2. **Obtain GCP Project ID and Authentication Information:**
@@ -29,7 +29,7 @@ Before running this script, you must have:
    Note: These parameters are sensitive and should be kept secure.
 
 3. **Configure the Script:**
-   - Open `gcp_indicents_extract.py` in a text editor.
+   - Open `gcp_incidents_extract.py` in a text editor.
    - Replace 'your_project_id' with your actual GCP project ID.
    - Replace 'your_authorization' with **Authorization** header.
    - Replace 'your_key' with **key** HTTP GET parameter.
@@ -41,7 +41,7 @@ Before running this script, you must have:
 ### Run the script using Python:
 
 ```bash
-python gcp_indicents_extract.py
+python gcp_incidents_extract.py
 ```
 
 The script will retrieve the incidents and save them in a file named *your_project_id*_incidents.json in the same directory.
