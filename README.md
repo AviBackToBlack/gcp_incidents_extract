@@ -34,7 +34,7 @@ Before running this script, you must have:
    - Replace 'your_authorization' with **Authorization** header.
    - Replace 'your_key' with **key** HTTP GET parameter.
    - Replace 'your_cookie' with **Cookie** header.
-   - Edit **DATE_FROM** and **DATE_TO** variablse by replacing two **YYYY-MM-DD** placeholders to set desired time range.
+   - Edit **DATE_FROM** and **DATE_TO** variables by replacing two 'YYYY-MM-DD' placeholders to set desired time range.
 
 ## Usage
 
